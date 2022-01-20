@@ -30,13 +30,6 @@ async def list_data_clean(pagination: tuple[int, int] = Depends(pagination)) -> 
     return results
 
 
-@router.post("/", response_model=DataClean, status_code=status.HTTP_201_CREATED)
-async def create(row: DataClean) -> DataClean:
-    row_tortoise = await DataCleanTortoise.create(**row.dict())
-    
-    return DataClean.from_orm(row_tortoise)
-
-
 @router.get("/{id}", response_model=DataClean)
 async def get_data_clean(row: DataClean = Depends(get_data_clean_or_404)) -> DataClean:    
     return DataClean.from_orm(row)

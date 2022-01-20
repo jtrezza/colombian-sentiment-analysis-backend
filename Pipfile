@@ -8,6 +8,11 @@ tortoise-orm = "*"
 fastapi = "*"
 uvicorn = "*"
 aerich = "*"
+unidecode = "*"
+nltk = "*"
+spacy = "*"
+numpy = "*"
+es-core-news-sm = "*"
 
 [dev-packages]
 

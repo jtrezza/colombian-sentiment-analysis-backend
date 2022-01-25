@@ -1,0 +1,28 @@
+{
+  "metrics": {
+    "pos": {"precision": 0.7721518987341772, "recall": 0.5754716981132075, "f1": 0.6594594594594594, "support": 106},
+    "neg": {"precision": 0.8068669527896996, "recall": 0.912621359223301, "f1": 0.856492027334852, "support": 206}
+  },
+  "pie": {
+    "neg": 662470,
+    "pos": 323833
+  },
+  "pos_rating": {
+    "col": [16776, 16970, 16896, 15635, 13590, 16717, 17119, 13543, 12165,
+      13975, 14347, 12728, 12275, 11252, 16127, 14666, 12903, 12525,
+      12414, 11976,  9588, 10858,  9863,  8925]
+  },
+  "neg_rating": {
+    "col": [23003, 25472, 23408, 21412, 23077, 24040, 22229, 21205, 19159,
+      22507, 29760, 20615, 22799, 24307, 67117, 47445, 35046, 32972,
+      32941, 32467, 25290, 23034, 22844, 20321]
+  },
+  "avg_rating": {
+    "col": [ -3113.5,  -4251,  -3256,  -2888.5,  -4743.5,  -3661.5,
+      -2555,  -3831,  -3497,  -4266,  -7706.5,  -3943.5,
+      -5262,  -6527.5, -25495, -16389.5, -11071.5, -10223.5,
+     -10263.5, -10245.5,  -7851,  -6088,  -6490.5,  -5698]
+  },
+  "neg_wordcloud": {"coronavirus":37312,"bogota":22478,"presidente":20564,"gobierno":18895,"tambien":15752,"personas":15366,"siempre":14628,"acuerdo":14156,"venezuela":13802,"contra":13476,"verdad":12252,"tienen":12078,"gracias":11560,"justicia":11359,"estamos":10701,"quiero":9921,"haciendo":9545,"estado":9422,"despues":9119,"momento":9091,"pandemia":9066,"tiempo":9037,"colombianos":8974,"muchos":8633,"cuenta":8541,"alguien":8308,"corrupcion":8304,"pueblo":8133,"quiere":8125,"tenemos":8001,"nuestra":7978,"politica":7919,"nuestro":7788,"historia":7657,"nacional":7447,"ustedes":7365,"trabajo":7230,"cuarentena":7221,"mierda":7009,"viendo":6931,"parece":6855,"seguro":6767,"mientras":6758,"quieren":6429,"persona":6301,"social":6268},
+  "pos_wordcloud": {"bogota":80400,"gracias":20396,"medellin":16529,"antioquia":12588,"barranquilla":11935,"tendencia":10085,"siempre":8295,"atlantico":7731,"nuestro":7697,"familia":6723,"trabajo":6117,"nuestra":5856,"posicion":5602,"quiero":5040,"tiempo":5035,"ciudad":5008,"acuerdo":4987,"amigos":4936,"convertirse":4912,"ocupando":4863,"cundinamarca":4649,"tambien":4455,"capital":4326,"nuestros":4312,"estamos":4300,"trndnl":4185,"semana":4074,"musica":3975,"nacional":3909,"venezuela":3884,"jajaja":3746,"grande":3736,"mejores":3571,"buenos":3534,"manana":3487,"equipo":3320,"ustedes":3252,"excelente":3222,"saludos":3163,"cuarentena":3109,"coronavirus":3105,"historia":3037,"cucuta":2966,"tenemos":2947,"jajajaja":2929,"contra":2905}
+}

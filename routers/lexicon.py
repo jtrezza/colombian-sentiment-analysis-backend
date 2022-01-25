@@ -1,6 +1,5 @@
 from operator import lt
-from fastapi import APIRouter, HTTPException, status, Query
-from fastapi.params import Depends
+from fastapi import APIRouter, status, Query
 import json
 
 from models.data_clean import DataClean, DataCleanTortoise

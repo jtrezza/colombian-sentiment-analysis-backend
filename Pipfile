@@ -13,6 +13,11 @@ nltk = "*"
 spacy = "*"
 numpy = "*"
 es-core-news-sm = "*"
+passlib = {extras = ["bcrypt"], version = "*"}
+pydantic = {extras = ["email"], version = "*"}
+python-multipart = "*"
+gensim = "*"
+sklearn = "*"
 
 [dev-packages]
 

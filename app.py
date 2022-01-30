@@ -31,11 +31,11 @@ async def protected_route(user: UserDB = Depends(get_current_user)):
     return User.from_orm(user)
 
 app.include_router(auth_router, prefix="/auth", tags=["Authentication"])
-app.include_router(data_clean_router, prefix="/data_clean", tags=["Data Clean"])
-app.include_router(lexicon_router, prefix="/lexicon", tags=["Lexicon"])
-app.include_router(kmeans_router, prefix="/kmeans", tags=["k-means"])
-app.include_router(svm_router, prefix="/svm", tags=["svm"])
-app.include_router(mlp_router, prefix="/mlp", tags=["mlp"])
+app.include_router(data_clean_router, prefix="/data_clean", tags=["Data Clean"], dependencies=[Depends(get_current_user)])
+app.include_router(lexicon_router, prefix="/lexicon", tags=["Lexicon"], dependencies=[Depends(get_current_user)])
+app.include_router(kmeans_router, prefix="/kmeans", tags=["k-means"], dependencies=[Depends(get_current_user)])
+app.include_router(svm_router, prefix="/svm", tags=["svm"], dependencies=[Depends(get_current_user)])
+app.include_router(mlp_router, prefix="/mlp", tags=["mlp"], dependencies=[Depends(get_current_user)])
 
 TORTOISE_ORM = {
     "connections": {"default": "sqlite://csa.db"},

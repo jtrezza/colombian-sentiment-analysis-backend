@@ -16,7 +16,7 @@ api_key_header = APIKeyHeader(name="Token")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:3000",
+        "https://colombian-sentiment-analysis.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],

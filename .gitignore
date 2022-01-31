@@ -130,8 +130,3 @@ dmypy.json
 
 # DS_Store
 .DS_Store
-
-# Database
-csa.db
-csa.db-shm
-csa.db-wal
